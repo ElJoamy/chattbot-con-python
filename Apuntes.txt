@@ -1,5 +1,6 @@
 Lista predeterminada de ayuda
+preguntas frecuentes
 contactos DAEE y SEUPB
-Imagenes de qr de pago
 informacion del upbmatch
+Imagenes de qr de pago(inv)
 Manejar pagos (inv)
