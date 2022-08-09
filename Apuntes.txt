@@ -1,6 +1,9 @@
+Principal - OFFICIAL
 Lista predeterminada de ayuda
 preguntas frecuentes
 contactos DAEE y SEUPB
-informacion del upbmatch
+
+secundary
+informacion del upbmatch(inv)
 Imagenes de qr de pago(inv)
 Manejar pagos (inv)
