@@ -15,7 +15,7 @@ words = []
 classes = []
 documents = []
 ignore_words = ['?', '!']
-data_file = open('intents.json').read()
+data_file = open('intents.json', encoding="utf8").read()
 intents = json.loads(data_file)
 print(intents)      # intents: grupos de conversaciones típicas
                     # patterns: posibles interacciones de los usuarios
@@ -76,7 +76,7 @@ sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 #ajustar y guardar el modelo
-hist = model.fit(np.array(train_x), np.array(train_y), epochs=300, batch_size=5, verbose=1)
+hist = model.fit(np.array(train_x), np.array(train_y), epochs=900, batch_size=5, verbose=1)
 model.save('chatbot_model.h5', hist)
 
 print("Modelo creado")
