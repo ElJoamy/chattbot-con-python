@@ -1,21 +1,14 @@
 {
     "intents": [
         {
-            "tag": "saludo",
+            "tag": "Ofrecer beneficio a la UPB",
             "patterns": [
-                "Hola?",
-                "Como estas?",
-                "Hay alguien ahi?",
-                "Hey",
-                "Hola",
-                "Hola a todos",
-                "Buenas",
-                "Buenos dias",
-                "Buenas tardes",
-                "Buenas noches"
+                "quisiera proponer un beneficio/empresa para la seupb advantage/card"
             ],
             "responses": [
-                "Hola, como puedo ayudarte"
+                "Muchas gracias por tu interés. Por favor, escribe a cualquiera de los siguientes contactos, ambos están encargados del proyecto ;)
+Adriana Uribe - 70158555
+Juan Carlos Omoya - 68212608"
             ],
             "context": [
                 ""
